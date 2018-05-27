@@ -5,7 +5,7 @@
 			$uname=$_POST["uname"];
 			$pass=$_POST["pass"];
 			
-			$query="SELECT admin_id,username,password FROM `db`.`user` WHERE username='$uname'";
+			$query="SELECT admin_id,username,password FROM `user`.`user` WHERE username='$uname'";
 			$record=mysql_query($query);
 			
 			if(!mysql_num_rows($record)==0){
