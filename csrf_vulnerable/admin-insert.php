@@ -4,7 +4,7 @@
 			$username=$_POST['username'];
 			$password=$_POST['password'];
 			
-			$query="INSERT INTO `db`.`user` (`username`,`password`) VALUES ('$username','$password')";
+			$query="INSERT INTO `user`.`user` (`username`,`password`) VALUES ('$username','$password')";
 					
 			if(mysql_query($query)){
 				mysql_close();
