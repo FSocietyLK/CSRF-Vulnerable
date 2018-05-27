@@ -2,7 +2,7 @@
 
 # FSOCIETY
 
-* blog post url -> https://fsocietylk.wordpress.com/2017/05/15/facebook-app-with-oauth-2-0/
+* blog post url -> https://fsocietylk.wordpress.com/2018/05/27/csrf-protection-via-synchronizer-token/
 
 ## Instructions for locally setting up the website
 
